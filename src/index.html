@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dawid's webpage!</title>
+  <link rel="icon" href="img/fin.jpg" type="image/jpg">
+  <meta name="description" content="My portfolio and other stuff">
+  <meta name="author" content="Dawid Florkowski">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
+  <!-- build:css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- endbuild -->
+</head>
+<body>
+<nav>
+  <p class="navButton" id="nav-home">Home</p>
+
+  <p class="navButton" id="nav-about">About</p>
+  <p class="navButton" id="nav-contact">Contact</p>
+</nav>
+<div class="main" id="main">
+  <div class="main-cont">
+    <section class="home-page-1">
+      <h1>Dawid Florkowski</h1>
+      <p>Front-end Developer</p>
+    </section>
+    <section class="home-page-2">
+      <h2>Recent Projects:</h2>
+      <div class="home-page-2-cont">
+        <a href="http://dawidflorkowski.pl/msbioss/"><div class="project-box msbioss"><p>MS Bioss</p></div></a>
+        <a href="http://dawidflorkowski.pl/medyk/"><div class="project-box medyk"><p>Medyk</p></div></a>
+      </div>
+    </section>
+  </div>
+</div>
+<canvas id="canvas"></canvas>
+<div class="about" id="about">
+  <div class="about-cont">
+    <section>
+      <h1>- Hi! I'm Dawid Florkowski, Webdeveloper & Designer</h1>
+      <p>Since 2014 I am facinating and specialising in front-end development - HTML/CSS/JS</p>
+      <p>But I also build the PHP/ MySQL web applications based on open source system like as WordPress</p>
+    </section>
+    <section>
+      <h1>What I do</h1>
+      <dl>
+        <h4>Front-end</h4>
+        <dd>HTML5, CSS3, Sass, JavaScript, JQuery, Ajax, Bootstrap, Canvas, SVG, RWD, Gulp</dd>
+        <h4>Back-end</h4>
+        <dd>PHP, MySQL</dd>
+        <h4>CMS</h4>
+        <dd>Wordpress</dd>
+        <h4>Media</h4>
+        <dd>Photoshop, Adobe Illustrator, Widows Movie Maker</dd>
+      </dl>
+    </section>
+    <section>
+      <div class="skill-section" id="skillSection"><canvas id="CanvasLogoHtml"></canvas><h1 id="skillCounter1"></h1></div>
+      <div class="skill-section"><canvas id="CanvasLogoCss"></canvas><h1 id="skillCounter2"></h1></div>
+      <div class="skill-section"><canvas id="CanvasLogoJs"></canvas><h1 id="skillCounter3"></h1></div>
+      <div class="skill-section"><canvas id="CanvasLogoPhp"></canvas><h1 id="skillCounter4"></h1></div>
+      <div class="skill-section"><canvas id="CanvasLogoPs"></canvas><h1 id="skillCounter5"></h1></div>
+    </section>
+  </div>
+</div>
+<footer id="contact">
+  <section>
+    <h1>Personal data</h1>
+    <h3>Name</h3>
+    <p>Dawid Florkowski</p>
+    <h3>Address</h3>
+    <p>Chopina 55</p>
+    <h3>City</h3>
+    <p>Szczecin</p>
+    <h3>Contact number</h3>
+    <p>691137994</p>
+    <h3>E-mail Contact</h3>
+    <p>Mrpanflorek@gmail.com</p>
+  </section>
+  <section>
+
+    <form id="form" action="poczta.php" method="post">
+      <h1>Contact me</h1>
+      <div id="formInfo">
+      </div>
+      <input type="text" placeholder="From" name="from" value="">
+      <input type="text" placeholder="Subject" name="subject" value="">
+      <textarea name="text" placeholder="Text" cols="20" value=""></textarea>
+      <button type="submit" name="button"><h1>Send</h1></button>
+    </form>
+  </section>
+</footer>
+<section class="copyright">
+  Copyright (c) 2017 Copyright DawidFlorkowski.pl All Rights Reserved.
+</section>
+<!-- build:js -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/js.js"></script>
+<script src="js/canvas.js"></script>
+<script src="js/canvaslogo.js"></script>
+<script src="js/contact.js"></script>
+<!-- endbuild -->
+</body>
+</html>

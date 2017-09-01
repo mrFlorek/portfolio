@@ -1,0 +1,1 @@
+$(function(){$("#form").submit(function(e){$.ajax({type:"POST",url:"poczta.php",data:$("#form").serialize(),success:function(e){document.getElementById("formInfo").innerHTML=e}}),e.preventDefault()})});
