@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrFlorek/portfolio.git"
+  },
+  "author": "Dawid Florkowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrFlorek/portfolio/issues"
+  },
+  "homepage": "https://github.com/mrFlorek/portfolio#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
