@@ -85,6 +85,10 @@ nav {
   h1 {
     margin-bottom: 0;
     font-size: 47px;
+    transition: all 0.3s;
+    &:hover{
+      transform:translateY(-10px);
+    }
   }
   p {
     padding-left: 2px;
@@ -99,6 +103,10 @@ nav {
   padding-left: 2px;
   h2 {
     padding-left: 2px;
+    transition: all 0.3s;
+    &:hover{
+      transform:translateY(-10px);
+    }
   }
 }
 
@@ -150,9 +158,10 @@ nav {
   display: flex;
   min-height: 100vh;
   justify-content: space-around;
-  background: url("../img/bg2.jpg");
+  background: url("../img/bg2.jpg") fixed;
   color: #FFD9B8;
   z-index: -1000;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .about-cont {
@@ -181,6 +190,8 @@ nav {
       flex-direction: row;
       margin-bottom: 20px;
       margin-top: 20px;
+      padding-top: 30px;
+      padding-bottom: 30px;
     }
   }
 }
@@ -201,6 +212,10 @@ nav {
     margin-right: auto;
     right: 0;
     left: 0;
+  }
+  transition: all 0.3s;
+  &:hover{
+    transform:translateY(-10px);
   }
 }
 
@@ -237,6 +252,10 @@ nav {
 .about-cont {
   h1 {
     font-size: 32px;
+    transition: all 0.3s;
+    &:hover{
+      transform:translateY(-10px);
+    }
   }
   h4 {
     margin-bottom: 0;
@@ -244,9 +263,17 @@ nav {
     &:nth-child(1) {
       margin-top: 0;
     }
+    transition: all 0.3s;
+    &:hover{
+      transform:translateY(-10px);
+    }
   }
   p {
     font-size: 20px;
+    transition: all 0.3s;
+    &:hover{
+      transform:translateY(-10px);
+    }
   }
   dt {
     font-weight: 700;
